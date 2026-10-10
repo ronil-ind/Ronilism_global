@@ -102,6 +102,28 @@ body{
     /* border: 0.1rem solid #009CDE; */
 }
 
+#wave{
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  75% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 #container_main_content > * {
     margin: 0.5rem;
     color: #000000;
