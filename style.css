@@ -141,7 +141,7 @@ body{
     font-size: 1.25rem;
 }
 
-#container_main_content > button {
+#container_main_content > a {
     font-size: 1.25rem;
     background-color: #FFFFFF;
     border: 1px solid #009CDE;
@@ -153,9 +153,11 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    align-self: start;
 }
 
-#container_main_content > button::after {
+#container_main_content > a::after {
     position: absolute;
     content: "";
     height:107%;
@@ -166,7 +168,7 @@ body{
     z-index: -1;
 }
 
-#container_main_content > button:hover {
+#container_main_content > a:hover {
     z-index: 0;
 }
 /* SUB SECTION & COMMENTCSS */
@@ -295,7 +297,7 @@ body{
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid silver;
-    /*margin:0; */
+       /* margin:0; */
      }
 
     .brand_nav > p {
@@ -334,8 +336,9 @@ body{
     align-self: center;
 }
 
-#container_main_content > button {
+#container_main_content > a {
     width:80%;
+    align-self: center;
 }
 
 #name_ronil{
